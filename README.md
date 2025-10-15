@@ -42,10 +42,12 @@ It combines a **Random Forest Regressor** for RUL prediction with a **Streamlit 
    git clone https://github.com/Mmeetttt/predictive-maintenance-ai.git
    cd predictive-maintenance-ai
 2. Install dependencies:
+   ```bash
     Pip install -r requirements.txt
 
 
 4. Run the Streamlit app:
+   ```bash
     streamlit run app.py
 
 
