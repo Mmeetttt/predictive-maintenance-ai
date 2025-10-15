@@ -1,32 +1,43 @@
-🤖 The Machine Doctor: Predictive Maintenance AI
+# 🤖 The Machine Doctor: Predictive Maintenance AI
 
-This project is a web application that demonstrates a predictive maintenance model for industrial machinery. It predicts the Remaining Useful Life (RUL) of a turbofan engine based on simulated sensor data from the NASA Prognostics Data Repository.
+**The Machine Doctor** is a machine learning–powered web application that predicts the **Remaining Useful Life (RUL)** of industrial machinery — specifically turbofan engines — using simulated sensor data from the **NASA Prognostics Data Repository**.  
 
-The application is built in Python using Streamlit for the front-end and a Random Forest Regressor from scikit-learn for the machine learning model.
+The system helps anticipate equipment failures before they occur, enabling proactive maintenance and reducing costly downtime.
 
-✨ Features
-Interactive Dashboard: Users can adjust normalized sensor values using sliders.
+---
 
-Real-Time Prediction: Get an instant health assessment and RUL prediction.
+## 🚀 Overview
 
-Clear Recommendations: Provides actionable maintenance advice based on the prediction.
+This project demonstrates how **data analytics and predictive modeling** can transform industrial maintenance into a **data-driven process**.  
+It combines a **Random Forest Regressor** for RUL prediction with a **Streamlit dashboard** for interactive visualization and user input.
 
-🚀 Live Demo(After you deploy to Hugging Face, you can add the link here!)
-📸 Screenshot(You can add a screenshot of your running application here)
+---
 
-🛠️ How to Run Locally
-Clone the repository:
+## ✨ Key Features
 
-git clone [https://github.com/YourUsername/YourProjectRepo.git](https://github.com/YourUsername/YourProjectRepo.git)
-cd YourProjectRepo
+- 🧩 **Interactive Dashboard:** Users can manipulate normalized sensor readings via sliders to simulate different operating conditions.  
+- ⚡ **Real-Time Prediction:** Instantly calculates the predicted Remaining Useful Life (RUL) of the machine.  
+- 🧠 **Smart Recommendations:** Provides clear, actionable maintenance suggestions based on model predictions.  
+- 📊 **Data-Driven Insights:** Visualizes trends and degradation patterns to enhance understanding of equipment health.  
 
-Install the required libraries:
+---
 
-pip install -r requirements.txt
+## 🧰 Tech Stack
 
-Run the Streamlit application:
+| Category | Tools & Libraries |
+|-----------|------------------|
+| **Language** | Python |
+| **Framework** | Streamlit |
+| **Machine Learning** | scikit-learn (Random Forest Regressor) |
+| **Data Handling** | pandas, numpy |
+| **Visualization** | matplotlib, seaborn |
+| **Dataset** | NASA Turbofan Engine Degradation Simulation Data Set |
 
-streamlit run app.py
+---
 
-📚 Dataset
-This model was trained on the Turbofan Engine Degradation Simulation Data Set provided by NASA.
+## 🛠️ How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mmeetttt/predictive-maintenance-ai.git
+   cd predictive-maintenance-ai
